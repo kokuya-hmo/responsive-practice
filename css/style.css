@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+.body {
+  width: 1100px;
+}
+
+.wrapper{
+  width:100%;
+}
+
+
+.q1-box{
+  width: 400px;
+  height: 400px;
+  background-color: #ff0000;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  .q1-box{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+.q2-box{
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 960px) {
+  .q2-box{
+  background-color: #007bff;
+  }
+}
+
+.box-flex{
+  display: flex;
+  justify-content: center;
+}
+
+.q3-blue-box{
+  width: 300px;
+  height: 300px;
+  background-color: #0008ff;
+  display: inline-block;
+  margin-right: 75px;
+}
+
+.q3-green-box{
+  width: 300px;
+  height: 300px;
+  background-color: #22ff00;
+  display: inline-block;
+  margin-left: 75px;
+}
+
+@media screen and (max-width: 960px) {
+  .q3-blue-box{
+    margin-right: 25px;
+  }
+  .q3-green-box{
+    margin-left: 25px;
+  }
+}
+
+.box-float{
+  margin: 0 auto;
+  width:600px;
+}
+
+.q4-red-box{
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+  float: left;
+}
+
+.q4-blue-box{
+  width: 300px;
+  height: 300px;
+  background-color: #0008ff;
+  float: left;
+}
+
+.clearfix::after {
+  content:"";
+  display: block;
+  clear:both;
+}
+
+@media screen and (max-width: 960px) {
+  .box-float{
+    margin: 0 auto;
+    width:unset;
+  }
+  .q4-red-box{
+    float:none;
+  }
+  .q4-blue-box{
+    float:none;
+  }
+}
+
+.flexbox{
+  display: flex;
+  justify-content: center;
+}
+
+.box-text{
+  text-align: center;
+  line-height: 300px;
+}
+
+.q5-red-box{
+  width: 300px;
+  height: 300px;
+  background-color: #ff0000;
+}
+
+.q5-blue-box{
+  width: 300px;
+  height: 300px;
+  background-color: #0008ff;
+}
+
+.q5-orange-box{
+  width: 300px;
+  height: 300px;
+  background-color: #ff8400;
+}
+
+@media screen and (max-width: 960px) {
+  .q5{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+}
+
+.q6-green-box{
+  width: 300px;
+  height: 300px;
+  background-color: #00ff51;
+}
+
+.q6-yellow-box{
+  width: 300px;
+  height: 300px;
+  background-color: #d4ff00;
+}
+
+.q6-purple-box{
+  width: 300px;
+  height: 300px;
+  background-color: #ff00e1;
+}
+
+@media screen and (max-width: 960px) {
+  .q6-green-box{
+  order: 2;
+  }
+  .q6-yellow-box{
+  order: 3;
+  }
+  .q6-purple-box{
+  order: 1;
+  }
+}
+
+@media screen and (min-width: 960px) {
+.q7-bluebox{
+  display: none;
+}
+}
+
+@media screen and (max-width: 960px) {
+  .q7-redbox{
+    display: none;
+  }
+}
