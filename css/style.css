@@ -24,10 +24,13 @@
 }
 
 .q2-box{
+  margin: 0 auto;
+}
+
+.redbox{
   width: 300px;
   height: 300px;
   background-color: #ff0000;
-  margin: 0 auto;
 }
 
 @media screen and (max-width: 960px) {
@@ -36,26 +39,28 @@
   }
 }
 
-.box-flex{
-  display: flex;
-  justify-content: center;
-}
-
-.q3-blue-box{
+.bluebox{
   width: 300px;
   height: 300px;
   background-color: #0008ff;
+}
+
+.greenbox{
+  width: 300px;
+  height: 300px;
+  background-color: #22ff00;
+}
+
+.q3-blue-box{
   display: inline-block;
   margin-right: 75px;
 }
 
 .q3-green-box{
-  width: 300px;
-  height: 300px;
-  background-color: #22ff00;
   display: inline-block;
   margin-left: 75px;
 }
+
 
 @media screen and (max-width: 960px) {
   .q3-blue-box{
@@ -71,17 +76,11 @@
   width:600px;
 }
 
-.q4-red-box{
-  width: 300px;
-  height: 300px;
-  background-color: #ff0000;
+.q4-box{
   float: left;
 }
 
-.q4-blue-box{
-  width: 300px;
-  height: 300px;
-  background-color: #0008ff;
+.q4-box{
   float: left;
 }
 
@@ -96,15 +95,12 @@
     margin: 0 auto;
     width:unset;
   }
-  .q4-red-box{
-    float:none;
-  }
-  .q4-blue-box{
+  .q4-box{
     float:none;
   }
 }
 
-.flexbox{
+.flexbox-center{
   display: flex;
   justify-content: center;
 }
@@ -114,45 +110,32 @@
   line-height: 300px;
 }
 
-.q5-red-box{
-  width: 300px;
-  height: 300px;
-  background-color: #ff0000;
+.flexbox-row{
+  display: flex;
+  flex-direction: row;
 }
 
-.q5-blue-box{
-  width: 300px;
-  height: 300px;
-  background-color: #0008ff;
-}
-
-.q5-orange-box{
+.orangebox{
   width: 300px;
   height: 300px;
   background-color: #ff8400;
 }
 
 @media screen and (max-width: 960px) {
-  .q5{
+  .q5-rowreverse{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
   }
 }
 
-.q6-green-box{
-  width: 300px;
-  height: 300px;
-  background-color: #00ff51;
-}
-
-.q6-yellow-box{
+.yellowbox{
   width: 300px;
   height: 300px;
   background-color: #d4ff00;
 }
 
-.q6-purple-box{
+.purplebox{
   width: 300px;
   height: 300px;
   background-color: #ff00e1;
