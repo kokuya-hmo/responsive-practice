@@ -141,6 +141,18 @@
   background-color: #ff00e1;
 }
 
+.q6-green-box{
+  order: 1;
+}
+
+.q6-yellow-box{
+  order: 2;
+}
+
+.q6-purple-box{
+  order: 3;
+}
+
 @media screen and (max-width: 960px) {
   .q6-green-box{
   order: 2;
@@ -151,6 +163,18 @@
   .q6-purple-box{
   order: 1;
   }
+}
+
+.q7-redbox{
+  display: block;
+}
+
+.q7-bluebox{
+  display: block;
+}
+
+.q7-greenbox{
+  display: block;
 }
 
 @media screen and (min-width: 960px) {
